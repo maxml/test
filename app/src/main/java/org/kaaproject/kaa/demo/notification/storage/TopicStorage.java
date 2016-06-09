@@ -1,24 +1,3 @@
-package org.kaaproject.kaa.demo.notification.storage;
-
-import android.content.Context;
-import android.preference.PreferenceManager;
-
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
-
-import org.kaaproject.kaa.demo.notification.entity.TopicPojo;
-import org.kaaproject.kaa.demo.notification.util.NotificationConstants;
-
-import java.lang.reflect.Type;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
-/**
- * Only for example
- */
 public class TopicStorage {
 
     private Map<Long, TopicPojo> topics;
